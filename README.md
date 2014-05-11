@@ -7,7 +7,7 @@ The four Charts and R files for the Exploratory Data Course on Coursera are here
 
 ### Plot 1 Code
 
-```
+```r
 #reads data from previously saved file
 data <- read.table("household_power_consumption.txt",header=TRUE,sep=";")
 
