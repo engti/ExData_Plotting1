@@ -28,7 +28,7 @@ plot(tData$newDT1,tData$sm1,type="n",ylab="Energy Sub Metering",xlab="")
 lines(tData$newDT1,tData$sm1,col="black")
 lines(tData$newDT1,tData$sm2,col="red")
 lines(tData$newDT1,tData$sm3,col="blue")
-legend("topright",legend=c("Sub Metering 1","Sub Metering 3","Sub Metering 3"),c,col=c("black","red","blue"),lty=1,text.font=2,cex=0.64)
+legend("topright",legend=c("Sub Metering 1","Sub Metering 2","Sub Metering 3"),c,col=c("black","red","blue"),lty=1,text.font=2,cex=0.64)
 
 #copies plot to png device
 dev.copy(png,file="plot3.png")

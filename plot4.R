@@ -40,7 +40,7 @@ lines(tData$newDT1,tData$sm3,col="blue")
 legend("topright",legend=c("Sub Metering 1","Sub Metering 2","Sub Metering 3"),c,col=c("black","red","blue"),lty=1,text.font=2,cex=0.64)
 
 #plot 4th line chart
-plot(tData$newDT1,tData$GRP,type="n",ylab="Global Reactive Power",xlab="")
+plot(tData$newDT1,tData$GRP,type="n",ylab="Global Reactive Power",xlab="Date Time")
 lines(tData$newDT1,tData$GRP)
 
 #copies plot to png device
